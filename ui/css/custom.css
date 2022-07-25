@@ -1624,7 +1624,9 @@ body.full-content, body {
     .m-xl-auto {
         margin: auto !important;
     }
-
+    h2.headertekst {
+        text-align: center !important;
+    }
     .mt-xl-auto,
     .my-xl-auto {
         margin-top: auto !important;

@@ -76,6 +76,7 @@ $("#saveOrder").on("click", function(){
                 lastElement.total_price = element.value
                 break;
         }
+        location.reload();
 
     }
     callApi("POST", orderSaveApiUrl, {
